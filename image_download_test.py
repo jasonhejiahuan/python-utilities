@@ -58,7 +58,7 @@ else:
 
         shutil.copy(script_filename, backup_filename)
 
-        url = "https://raw.githubusercontent.com/jasonhejiahuan/studying-python/main/image_download_test.py"
+        url = "https://raw.githubusercontent.com/jasonhejiahuan/python-utilities/main/image_download_test.py"
         requests.head = {
             'Cache-Control': "no-cache"
         }
