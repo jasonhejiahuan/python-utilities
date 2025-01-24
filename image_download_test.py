@@ -66,7 +66,7 @@ else:
         with open(script_filename, 'wb') as f:
             f.write(response.content)
 
-        hash_url = "https://raw.githubusercontent.com/jasonhejiahuan/studying-python/main/image_download_test.py-md5.txt"
+        hash_url = "https://raw.githubusercontent.com/jasonhejiahuan/python-utilities/main/image_download_test.py-md5.txt"
         requests.head = {
             'Cache-Control': "no-cache"
         }
