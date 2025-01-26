@@ -10,3 +10,21 @@
 - 2.由于这个程序使用浏览器UI，受制于略缩图加载速度和界面动画速度，所以获取原图链接的速度可能较慢，可以通过进度条查看剩余时间
 - 3.这个程序的原理是先获取整个图库的原图链接，然后统一下载他们，所以在获取完所有链接之前不会下载任何图片
 - 4.下载好的文件将保存在downloaded_images文件夹，暂时使用获取的顺序作为文件名
+
+## New Practical Tool!
+
+### Plus Photo Downloader
+
+This is an automated program that helps you download images from a photo gallery during a live broadcast on the cloud. It is fully automated and non-interactive. You simply need to input the photo gallery link into the `TARGET_URL` variable, and the program will run on its own.
+
+#### Environment Setup:
+1. **Selenium WebDriver**: Required as the foundation for simulating web browsing.
+2. **Python Libraries**:
+   - `requests`
+   - `tqdm` (for progress bar)
+
+#### Features:
+1. **Browser UI Access**: This program accesses the photo gallery through the browser's UI rather than using the API, solving the issue of the constantly changing `sign=` key (which leads to 403 Forbidden errors).
+2. **Speed Limitation**: Since the program uses the browser UI, the speed of fetching original image links may be slower due to thumbnail loading times and interface animations. You can monitor the remaining time with a progress bar.
+3. **Image Download Process**: The program first retrieves all the original image links before starting the download. No images are downloaded until all links have been gathered.
+4. **Downloaded Files**: The images are saved in the `downloaded_images` folder, with filenames based on the order in which they were retrieved.
