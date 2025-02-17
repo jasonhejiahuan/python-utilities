@@ -1,3 +1,6 @@
+**Safe Password已上线，将会稍后更新文档，尽情体验！**
+
+
 **全新实用工具！**
 
 - Plus Photo Downloader:
