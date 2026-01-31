@@ -110,29 +110,7 @@ CLASH_API_PORT = 51237
 CLASH_API_KEY = 'Z9P-9p7-A62-dcq'
 
 # 前21个代理节点（从YAML提取的前21个）
-PROXY_NODES = [
-    '🇭🇰 香港W01',
-    '🇯🇵 日本W01',
-    '🇭🇰 香港W02 | IEPL',
-    '🇯🇵 日本W02 | IEPL',
-    '🇭🇰 香港W03 | IEPL',
-    '🇯🇵 日本W03 | IEPL',
-    '🇭🇰 香港W04 | IEPL',
-    '🇯🇵 日本W04 | IEPL',
-    '🇭🇰 香港W05 | IEPL',
-    '🇯🇵 日本W05 | 下载专用 | x0.01',
-    '🇭🇰 香港W06 | x0.8',
-    '🇯🇵 日本W06 | 下载专用 | x0.01',
-    '🇭🇰 香港W07 | x0.8',
-    '🇯🇵 日本W07 | x0.8',
-    '🇭🇰 香港W08 | x0.8',
-    '🇯🇵 日本W08 | x0.8',
-    '🇭🇰 香港W09 | IEPL',
-    '🇯🇵 日本W09 | IEPL',
-    '🇭🇰 香港W10 | IEPL',
-    '🇯🇵 日本W10 | IEPL',
-    '🇭🇰 香港W11 | IEPL',
-]
+PROXY_NODES = []
 
 
 def get_random_user_agent():
